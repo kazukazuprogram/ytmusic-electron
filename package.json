@@ -1,0 +1,17 @@
+{
+  "name": "ytmusic-electron",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/kazukazuprogram/ytmusic-electron",
+  "author": "Cabbage Lettuce <33714346+kazukazuprogram@users.noreply.github.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "electron": "^11.2.3",
+    "electron-builder": "^22.9.1"
+  },
+  "main": "app.js",
+  "scripts": {
+    "start": "electron .",
+    "build": "node build-win.js"
+  }
+}
